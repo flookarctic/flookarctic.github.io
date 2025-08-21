@@ -2,7 +2,7 @@ ody {
     background: rgb(125, 198, 205);
     color: rgb(0, 0, 0);
     padding: 10px;
-    font-family: Arial, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #all-contents {
@@ -78,4 +78,29 @@ h2, h3 {
 
 div {
     color:rgb(156, 189, 212)
+}
+/* Portfolio styles */
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #eee;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #454545;
 }
